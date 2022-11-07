@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>250</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>package1::Cercle
+--
++R = 5: int
+#x: int
+#y: int
+#r: int
+--
++Cercle(int xInit, int yInit, int rInit): ctor
++Cercle(int xInit, int yInit): ctor
++getX(): int
++getY(): int
++placerA(int px, int py): void
++dessiner(Graphics g): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
