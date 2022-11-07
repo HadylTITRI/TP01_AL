@@ -1,8 +1,8 @@
-package package1;
+ package package1;
 
 import java.awt.Graphics;
 
-public class TrainCercle implements IObjetDessinable{
+public abstract class TrainCercle implements IObjetDessinable{
 
 	 //------- variables d'instance (attributs) --------------------------
     /**

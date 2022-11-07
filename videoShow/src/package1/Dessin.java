@@ -7,7 +7,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 import javax.swing.JPanel;
 
 
-public class Dessin implements IObjetDessinable{
+public abstract class Dessin implements IObjetDessinable{
 	/**
      * stocke la liste des trains ajout�es à cette zone de dessin.
      */
@@ -22,7 +22,12 @@ public class Dessin implements IObjetDessinable{
         return getWidth();
     }
 
-    /**
+    private int getWidth() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	/**
      * retourne la hauteur de la zone de dessin.
      *
      * @return la hauteur.
@@ -31,7 +36,9 @@ public class Dessin implements IObjetDessinable{
         return getHeight();
     }
 
-    /**
+    protected abstract int getHeight();
+
+	/**
      * ajoute un train cercle à la zone de dessin.
      *
      * @param ch le train  à ajouter au Dessin
@@ -49,7 +56,12 @@ public class Dessin implements IObjetDessinable{
         }
     }
 
-    /**
+    private void repaint() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	/**
      * temporisation de l'animation.
      *
      * @param duree delai de temporisation en ms.
@@ -68,7 +80,7 @@ public class Dessin implements IObjetDessinable{
      */
   
     public void paintComponent(Graphics g) {
-        super.paintComponent(g);
+        // super.getpaintComponent(g);
         //  dessiner les trains que contient le dessin
         for (TrainCercle c : listeTrain) {
             c.dessiner(g);

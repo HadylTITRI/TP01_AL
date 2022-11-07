@@ -4,14 +4,13 @@ import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 
 
-
 public class TrainCercleImage extends TrainCercle {
 
 
 	 /**
      * @param d la feuille de dessin oÃ¹ se situe le train
      * @param nbCercle nombre cerlce du train
-     * @param img l'image du début de train
+     * @param img l'image du dï¿½but de train
      */
     public TrainCercleImage(Dessin d, int nbCercle, BufferedImage img) {
         
