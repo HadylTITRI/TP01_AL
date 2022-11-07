@@ -7,9 +7,9 @@ import java.util.concurrent.CopyOnWriteArrayList;
 import javax.swing.JPanel;
 
 
-public class Dessin extends JPanel{
+public class Dessin implements IObjetDessinable{
 	/**
-     * stocke la liste des trains ajout�es à cette zone de dessin.
+     * stocke la liste des trains ajout�es à cette zone de dessin.
      */
     private final List<TrainCercle> listeTrain = new CopyOnWriteArrayList();
 
