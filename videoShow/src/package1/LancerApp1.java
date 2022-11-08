@@ -21,6 +21,7 @@ public class LancerApp1 {
 		laFenetre.setSize(512, 512);
 		
 		// cr�ation de la z�ne de dessin dans la fen�tre
+		
 		Dessin d = new Dessin();
 		laFenetre.getContentPane().add(d);
 		
@@ -28,7 +29,7 @@ public class LancerApp1 {
 		laFenetre.setVisible(true);
 		
 		// les trains de cercles avec image et en couleur
-		TrainCercle[] lesTrains= new TrainCercle[10];
+		IObjetDessinable[] lesTrains= new IObjetDessinable[10];
 		lesTrains[0] = new TrainCercleImage(d, 10, imgVador); d.ajouterObjet(lesTrains[0]);
 		lesTrains[1] = new TrainCercleImage(d, 10, imgLeila); d.ajouterObjet(lesTrains[1]);
 		for (int i = 2; i < 10; i++) {
