@@ -5,5 +5,6 @@ import java.awt.Graphics;
 public interface IObjetDessinable {
 	 public abstract void dessiner(Graphics g);
 	 public void deplacer();
+	 void placer(int x, int y);
 
 }

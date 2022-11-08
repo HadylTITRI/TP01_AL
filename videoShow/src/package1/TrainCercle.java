@@ -108,6 +108,10 @@ public abstract class TrainCercle implements IObjetDessinable{
         // fait avancer le cercle de dd�but
         leDebut.deplacerSelonPointe();
     }
+    
+    @Override
+    public void placer(int x, int y) {
+	}
 
 }//train cercle	
 	
