@@ -5,7 +5,7 @@ package package1;
  * uniforme.
  * 
  */
-public class MvtCirculaire implements IFormeAnimable {
+public abstract class MvtCirculaire implements IFormeAnimable {
 
     /**
      * rayon du cercle sur lequel l'animateur déplace la forme
@@ -41,10 +41,10 @@ public class MvtCirculaire implements IFormeAnimable {
     }
 
     @Override
-    public void deplacer(Forme f) {
+    public void deplacer(IObjetDessinable f) {
         angle += deltaAngle;
         double angleRadians = Math.toRadians(angle);
-        f.placerA((int) (xc + rayon * Math.cos(angleRadians)),
+        f.placer((int) (xc + rayon * Math.cos(angleRadians)),
                 (int) (yc + rayon * Math.sin(angleRadians)));
     }
 

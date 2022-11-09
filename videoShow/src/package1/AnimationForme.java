@@ -9,12 +9,12 @@ import java.awt.Graphics;
 
 /**
  */
-public class AnimationForme implements IObjetAnimable {
+public abstract class AnimationForme implements IObjetAnimable {
     
-    private Forme forme;
+    private IObjetDessinable forme;
     private IFormeAnimable formeAnimable;
 
-    public AnimationForme(Forme forme, IFormeAnimable formeAnimable) {
+    public AnimationForme(IObjetDessinable forme, IFormeAnimable formeAnimable) {
         this.forme = forme;
         this.formeAnimable = formeAnimable;
     }
@@ -30,5 +30,8 @@ public class AnimationForme implements IObjetAnimable {
     }
     
     
+    @Override
+    public void placer(int x, int y) {
+    }
     
 }

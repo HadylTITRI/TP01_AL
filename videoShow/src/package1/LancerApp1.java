@@ -45,6 +45,11 @@ public class LancerApp1 {
 		d.ajouterObjet((IObjetDessinable) new Etoile(255,350,20,1,new Color(0,255,0),new Color(0,255,0)));
 		d.ajouterObjet((IObjetDessinable) new PolygoneRegulier(5,255,150,20,1,new Color(0),new Color(0)));
 		
+		d.ajouterObjet(new AnimationForme(new PolygoneRegulier(4,255,150,20,1,new Color(220,220,220),new Color(220,220,220)),new MvtCirculaire(255,150,70,15,15)));
+		d.ajouterObjet(new AnimationForme(new Etoile(255,350,30,20,new Color(255,255,0),new Color(255,255,0)),new MvtCirculaire(255,350,70,50,15)));
+		
+		d.ajouterObjet(new AnimationForme(new Visage(d),new MvtCirculaire(80,80,40,100,20)));
+		
 		while(true) {
 		// la zone de dessin se r�affiche
 		d.repaint();
