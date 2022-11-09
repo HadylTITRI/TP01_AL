@@ -34,6 +34,7 @@ public class Dessin extends JPanel{
 
 	/**
      * ajoute un train cercle à la zone de dessin.
+	 * @param  
      *
      * @param ch le train  à ajouter au Dessin
      * @see train
