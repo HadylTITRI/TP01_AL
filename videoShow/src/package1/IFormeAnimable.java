@@ -1,4 +1,4 @@
-package videoShowSolution;
+package package1;
 
 /**
  * Un objet IFormeAnimable est capable d'animer (de déplacer) une forme.

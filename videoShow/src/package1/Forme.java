@@ -1,6 +1,7 @@
-package videoShowSolution;
+package package1;
 
 import java.awt.Color;
+import java.awt.Graphics;
 
 /**
  * Une forme géométrique pouvant être affichée dans une zone de dessin.
@@ -74,5 +75,6 @@ public abstract class Forme {
         this.x = x;
         this.y = y;
     }
+
 
 }

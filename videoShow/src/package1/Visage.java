@@ -1,4 +1,4 @@
-package videoShowSolution;
+package package1;
 
 import java.awt.Graphics;
 
@@ -302,5 +302,10 @@ public class Visage implements IObjetDessinable{
         g.drawOval(xhg + 3 * largeurOeil, yhg + hauteurOeil, largeurOeil,
                 hauteurOeil);
 
+    }
+    
+    public void placer(int x, int y) {
+    	this.xhg = x;
+    	this.yhg = y;
     }
 }

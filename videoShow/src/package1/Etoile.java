@@ -1,4 +1,4 @@
-package videoShowSolution;
+package package1;
 
 import java.awt.Color;
 import java.awt.geom.Path2D;
@@ -52,5 +52,7 @@ public class Etoile extends FormeCirculaireReguliere {
         leContour.closePath();
         return leContour;
     }
+    public void deplacer() {}
 
+    
 }

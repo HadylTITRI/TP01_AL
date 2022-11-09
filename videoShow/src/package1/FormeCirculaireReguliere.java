@@ -1,4 +1,4 @@
-package videoShowSolution;
+package package1;
 
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -71,7 +71,6 @@ public abstract class FormeCirculaireReguliere extends FormeCirculaire {
      */
     protected abstract Path2D construireContour(Point2D.Float[] tabSommets);
     
-    @Override
     public void dessiner(Graphics g) {
         // on fait une copie du contexte graphique
         Graphics2D g2 = (Graphics2D) g.create();

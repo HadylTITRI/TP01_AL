@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package videoShowSolution;
+package package1;
 
 import java.awt.Graphics;
 
@@ -26,7 +26,7 @@ public class AnimationForme implements IObjetAnimable {
 
     @Override
     public void dessiner(Graphics g) {
-        this.forme.dessiner(g);
+        ((IObjetAnimable) this.forme).dessiner(g);
     }
     
     

@@ -1,4 +1,4 @@
-package videoShowSolution;
+package package1;
 
 import java.awt.Color;
 import java.awt.geom.Path2D;

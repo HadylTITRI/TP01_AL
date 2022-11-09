@@ -1,4 +1,4 @@
-package videoShowSolution;
+package package1;
 
 /**
  * Animateur permettant de déplacer une forme avec un mouvement circulaire
