@@ -89,6 +89,12 @@ public class Dessin extends JPanel{
         }
     }
 
+	public void ajouterObjet(IFormeAnimable iFormeAnimable, MvtCirculaire mvtCirculaire) {
+		// TODO Auto-generated method stub
+		repaint();
+		this.pause(10);
+	}
+
 	
 
 }

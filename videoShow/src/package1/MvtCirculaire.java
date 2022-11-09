@@ -5,7 +5,7 @@ package package1;
  * uniforme.
  * 
  */
-public abstract class MvtCirculaire implements IFormeAnimable {
+public class MvtCirculaire implements IFormeAnimable {
 
     /**
      * rayon du cercle sur lequel l'animateur déplace la forme

@@ -9,7 +9,7 @@ import java.awt.Graphics;
 
 /**
  */
-public abstract class AnimationForme implements IObjetAnimable {
+public class AnimationForme implements IObjetAnimable {
     
     private IObjetDessinable forme;
     private IFormeAnimable formeAnimable;
